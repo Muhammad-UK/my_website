@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(41, 46, 48);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgb(89, 149, 151);
+}
+header > h1 {
+  display: flex;
+  justify-content: flex-start;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-size: 1.3rem;
+}
+
+section {
+  background-color: rgb(52, 216, 161);
+  font-size: 1.2rem;
+}
+
+img.happy {
+  display: flex;
+  justify-content: flex-end;
+}
