@@ -7,11 +7,12 @@ body {
   align-items: center;
 }
 
+/*start of header css*/
 header {
-  background-color: rgb(89, 149, 151);
-  padding: 1.5rem;
   position: sticky;
   top: 0;
+  background-color: rgb(89, 149, 151);
+  padding: 1.5rem;
   border-radius: 10px;
   width: 95%;
   margin: 1.2rem;
@@ -40,12 +41,16 @@ nav > a {
   font-size: 1.6rem;
 }
 
+/*end of header and nav css*/
+
+/*start of index/section css*/
 body > section {
   background-color: rgb(52, 216, 161);
   font-size: 1.2rem;
   padding: 1.5rem;
   border-radius: 10px;
   width: 75%;
+  margin: 1.2rem;
 }
 
 section.rows {
@@ -66,4 +71,29 @@ section.happy {
   display: flex;
   justify-content: right;
   align-items: center;
+}
+
+/*end of index/section css*/
+
+/*all about/portfolio css*/
+h2 {
+  background-color: rgb(62, 125, 128);
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 85%;
+  margin: auto;
+  font-size: 1.6rem;
+}
+
+/*responsive design section*/
+@media (max-width: 600px) {
+  body {
+    width: 80ch;
+    height: auto;
+    margin: auto;
+  }
+  header {
+    position: "relative" !important;
+    top: auto;
+  }
 }
